@@ -9472,6 +9472,11 @@
   "resolved" "https://registry.npmjs.org/std-env/-/std-env-3.7.0.tgz"
   "version" "3.7.0"
 
+"strapi-plugin-cloudinary@^0.0.0":
+  "integrity" "sha512-GcVczaNiRNtB7s9S5Ne7r/ldScM/EbqJC2yUJfUmCZc9sQ+cwzxg5F1kZDfUVuSnldo0uCxiri2kipUU7d2arw=="
+  "resolved" "https://registry.npmjs.org/strapi-plugin-cloudinary/-/strapi-plugin-cloudinary-0.0.0.tgz"
+  "version" "0.0.0"
+
 "stream-browserify@^3.0.0":
   "integrity" "sha512-H73RAHsVBapbim0tU2JwwOiXUj+fikfiaoYAKHF3VJfA0pe2BCzkhAHBlLG6REzE+2WNZcxOXjK7lkso+9euLA=="
   "resolved" "https://registry.npmjs.org/stream-browserify/-/stream-browserify-3.0.0.tgz"
