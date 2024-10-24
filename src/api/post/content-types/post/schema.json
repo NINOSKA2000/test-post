@@ -4,25 +4,116 @@
   "info": {
     "singularName": "post",
     "pluralName": "posts",
-    "displayName": "post"
+    "displayName": "post",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
-      "multiple": true
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "keyboards": {
+      "type": "richtext",
+      "maxLength": 200,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "private": true
+    },
+    "description": {
+      "type": "richtext",
+      "maxLength": 150,
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "content": {
+      "type": "richtext",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "imgAutor": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "autor": {
+      "type": "richtext",
+      "default": "Menagen Murriagui Hananel",
+      "maxLength": 50,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "authorRole": {
+      "type": "richtext",
+      "default": "Ceo de Innovativa Seidor",
+      "required": false,
+      "maxLength": 100,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "AI and automation",
+        "Technology",
+        "Financial services",
+        "Customer service"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
