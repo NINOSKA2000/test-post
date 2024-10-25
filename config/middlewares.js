@@ -17,7 +17,7 @@ module.exports = [
   {
   name: 'strapi::cors',
   config: {
-  origin: ['https://dev.ariapp.ai', 'https://www.ariapp.ai' , 'http://localhost:1337', 'https://test-post-07ho.onrender.com'], // Reemplaza por tu dominio permitido
+  origin: ['https://dev.ariapp.ai', 'https://www.ariapp.ai' , 'http://localhost:1337', 'http://localhost:3000', 'https://test-post-07ho.onrender.com'], // Reemplaza por tu dominio permitido
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
   headers: ['Content-Type', 'Authorization'],
   credentials: true,
