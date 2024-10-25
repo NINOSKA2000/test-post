@@ -46,7 +46,8 @@
           "localized": true
         }
       },
-      "private": true
+      "private": true,
+      "required": true
     },
     "description": {
       "type": "richtext",
@@ -114,6 +115,16 @@
           "localized": true
         }
       }
+    },
+    "order": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer",
+      "required": true,
+      "unique": true
     }
   }
 }
