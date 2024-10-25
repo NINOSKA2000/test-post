@@ -124,7 +124,8 @@
       },
       "type": "integer",
       "required": true,
-      "unique": true
+      "unique": false,
+      "default": 0
     }
   }
 }
